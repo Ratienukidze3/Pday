@@ -1,0 +1,598 @@
+.mainpage {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.landing-page { 
+    flex-direction: column;
+    width: 1624px;
+    margin-right: 74px;
+    margin-left: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.landing-container h2 { 
+    font-family: Alegreya;
+font-size: 32px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+color: rgba(11, 30, 99, 1);
+margin-top: 64px;
+margin-bottom: 42px;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  width: 1064px;
+}
+
+.other-payroll_options_container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.other-payroll_options_box {
+    width:504px ;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #FAFAFA;
+border: 1px solid rgba(66, 88, 166, 0.08);
+    margin-bottom: 24px;
+border-radius: 8px;
+}
+.payroll-icon_box { 
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(36, 77, 225, 0.04);
+    border-radius: 44px;
+    margin-left: 24px;
+    /* margin-top: 24px; */
+}
+
+.df-zap { 
+    width: 32px;
+    height: 32px;
+    color: rgba(36, 77, 225, 1);
+}
+
+
+.payroll-options_description_box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 12px; */
+    /* margin-top: 30px; */
+}
+.payroll-options_description_box :nth-child(1) {
+    font-family: Mukta;
+font-size: 20px;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+
+.payroll-options_description_box :nth-child(2) {
+font-family: Alegreya;
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: rgba(13, 20, 38, 1);
+opacity: 56%;
+width: 100%;
+}
+
+.other-payroll_run_btn  span { 
+    font-family: Mukta;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+
+.other-payroll_run_btn { 
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.2s;
+    background: transparent;
+    margin-right: 26px;
+    cursor: pointer;
+}
+
+.other-payroll_run_btn:hover {
+    width: 78px;
+    height: 44px;
+    border-radius: 2px;
+    background: rgba(14, 33, 105, 0.04);
+    }
+
+    .other-payroll_run_btn:hover svg { 
+        color: blue;
+    }
+    .other-payroll_run_btn:hover span { 
+        color: blue;
+    }
+
+    .active-payrolls_box { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .active-payrolls_box h6 { 
+        font-family: Mukta;
+font-size: 16px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(13, 20, 38);
+opacity: 56%;
+    }
+
+
+
+
+    .active_payroll_container{ 
+        height: 50vh;
+    }
+
+
+    .payroll_container_title { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1064px;
+        align-items: center;
+        margin-bottom: 36px;
+      }
+      .active_payrolls {
+        font-family: Alegreya;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 44px;
+      letter-spacing: 0.4000000059604645px;
+      text-align: left;
+      color: rgba(11, 30, 99, 1);
+      }
+      
+      .completed_payrolls { 
+        font-family: Mukta;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 27px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: rgba(13, 20, 38, 1);
+      Opacity:56%;
+      text-decoration: none;
+      }
+      
+      .payroll_container_description { 
+        width: 680px;
+        display: flex;
+        
+        font-family: Mukta;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 1px;
+      text-align: left;
+      Opacity:56%;
+      padding-left: 24px;
+      padding-bottom: 10px;
+      }
+      .payroll_container_description :nth-child(1) { 
+        width: 278px;
+      }
+      .payroll_container_description :nth-child(2) { 
+        width: 278px;
+      }
+      
+      
+      .active_payroll_subcontainer { 
+      height: 80px;
+      width: 1064px;
+      border-radius: 4px;
+      background: rgba(250, 250, 250, 1);
+      display: flex;
+      align-items: center;
+      font-family: Mukta;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-bottom: 16px;
+      
+      }
+      
+      .active_payroll_list { 
+        display: flex;
+        flex-direction: row;
+      justify-content: space-between;
+      width: 1060px;
+      }
+      .pay_cycle_container { 
+        padding-left: 24px;
+        font-family: Mukta;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: rgba(13, 20, 38, 1);
+      width: 278px;
+      }
+      .pay_cycle_container :nth-child(2) {
+        margin-top: 8px;
+        font-family: Alegreya;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+      letter-spacing: 0px;
+      text-align: left;
+      opacity: 56%;
+      width: 278px;
+      }
+      .pay_cycle_container_names {
+        padding-top: 15px;
+        width: 278px;
+      }
+      
+      .run_late_payroll { 
+      height: 48px;
+      width: 152px;
+      border-radius: 44px;
+      padding: 14px;
+      background: linear-gradient(0deg, #0B1E63, #0B1E63),
+      linear-gradient(0deg, rgba(14, 33, 105, 0.08), rgba(14, 33, 105, 0.08));
+      border: 1px solid rgba(14, 33, 105, 0.08);
+      margin-right:10px;
+      }
+      
+      .run_payroll { 
+        height: 48px;
+        width: 152px;
+        border-radius: 44px;
+        padding: 14px;
+        border: 1px solid rgba(14, 33, 105, 0.08);
+        margin-right:10px;
+        background: rgba(36, 77, 225, 0.08);
+        }
+        .run_payroll a {
+          text-decoration: none;
+          color: rgba(36, 77, 225, 1);
+          ;
+        }
+      
+        .review_payroll { 
+          height: 48px;
+          width: 152px;
+          border-radius: 44px;
+          padding: 14px;
+          margin-right: 10px;
+          border: 1px solid rgba(5, 37, 153, 0.08);
+          background: rgba(250, 250, 250, 1);
+      }
+      .review_payroll a {
+        text-decoration: none;
+        color: rgba(13, 20, 38, 1);
+      
+      }
+      
+      .run_late_payroll a {
+        color: white;
+        text-decoration: none;
+       }
+      
+      
+      .dots_container  {
+        position: relative;
+      }
+      
+      .dots_button {
+        background: rgba(250, 250, 250, 0);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: var(--gap);
+        padding: 0.6rem;
+        cursor: pointer;
+        border-radius: var(--radius);
+        border: none;
+        box-shadow: var(--shadow);
+        position: relative;
+      }
+      
+      .dots_drop {
+        position: absolute;
+        box-shadow: 0px 4px 32px 0px rgba(13, 20, 38, 0.16);
+        margin-top: -48px;
+        margin-left: -186px;
+        
+        position: absolute;
+        width: 196px;
+        height: 168px;
+        border-radius: 8px;
+        margin-top: 0.3rem;
+        background: rgba(250, 250, 250, 1);
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(0.5rem);
+        transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+
+      }
+      
+      .dots_drop a {
+        display: flex;
+        align-items: center;
+        column-gap: var(--gap);
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        color: black;
+        
+        
+      }
+      
+      .dots_drop a:hover {
+        background: rgba(13, 20, 38, 0.1);
+      }
+      
+      .see {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0rem);
+        margin-top: 8px;
+        display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+      }
+      
+      
+      
+      .dots1_button {
+        background: rgba(250, 250, 250, 0);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: var(--gap);
+        padding: 0.6rem;
+        cursor: pointer;
+        border-radius: var(--radius);
+        border: none;
+        box-shadow: var(--shadow);
+        position: relative;
+      }
+      
+      .dots1_drop {
+        box-shadow: 0px 4px 32px 0px rgba(13, 20, 38, 0.16);
+        margin-top: -43px;
+        margin-left: -186px;
+        position: absolute;
+        width: 196px;
+        height: 168px;
+        border-radius: 8px;
+        margin-top: 0.3rem;
+        background: rgba(250, 250, 250, 1);
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(0.5rem);
+        transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+      }
+      
+      .dots1_drop a {
+        display: flex;
+        align-items: center;
+        column-gap: var(--gap);
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        color: black;
+      }
+      
+      .dots1_drop a:hover {
+        background: rgba(13, 20, 38, 0.1);
+      }
+      
+      .see1 {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0rem);
+        margin-top: 8px;
+        display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+      }
+      
+      
+      
+      
+      
+      .dots2_button {
+        background: rgba(250, 250, 250, 0);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: var(--gap);
+        padding: 0.6rem;
+        cursor: pointer;
+        border-radius: var(--radius);
+        border: none;
+        box-shadow: var(--shadow);
+        position: relative;
+      }
+      
+      .dots2_drop {
+        box-shadow: 0px 4px 32px 0px rgba(13, 20, 38, 0.16);
+        margin-top: -43px;
+        margin-left: -186px;
+        position: absolute;
+        width: 196px;
+        height: 168px;
+        border-radius: 8px;
+        margin-top: 0.3rem;
+        background: rgba(250, 250, 250, 1);
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(0.5rem);
+        transition: all 0.1s cubic-bezier(0.16, 1, 0.5, 1);
+      }
+      
+      .dots2_drop a {
+        display: flex;
+        align-items: center;
+        column-gap: var(--gap);
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        color: black;
+      }
+      
+      .dots2_drop a:hover {
+        background: rgba(13, 20, 38, 0.1);
+      }
+      
+      .see2 {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0rem);
+       margin-top: 8px;
+       display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+      }
+      
+      
+      .dots3_drop svg { 
+        margin-right: 14px;
+      }
+      
+      
+     
+      .payrol_zap_container { 
+        width: 48px;
+        height: 48px;
+        background: rgba(36, 77, 225, 0.04);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 44px;
+        border-style: solid;
+        border-width: 1px;
+        background: rgba(36, 77, 225, 0.04);
+        margin-top: 26px;
+        margin-left: 26px;
+        margin-right: 12px;
+        border: none;
+      }
+      .payroll_zap { 
+        width: 21px;
+        height: 21px;
+        color: rgba(36, 77, 225, 1);
+       
+        background-color:rgba(36, 77, 225, 0.04);
+        ;
+      }
+      .payroll_zap_list { 
+        font-family: Mukta;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 33px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: rgba(13, 20, 38, 1);
+      margin-top: 25px;
+      
+      }
+      .payroll_zap_list :nth-child(2) {
+        font-family: Alegreya;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+        color: rgba(13, 20, 38, 1);
+        opacity: 56%;
+        width: 247px;
+        
+      }
+   
+      .run_button { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 2px;
+        margin-top: 25px;
+        margin-left: 70px;
+        width: 78px;
+        height: 44px;
+        background: linear-gradient(0deg, #FAFAFA, #FAFAFA);
+        border: none;
+      }
+      
+      .chevron-right {
+        display: none;
+      }
+      .run_button:hover { 
+      transition: all 0.3s;
+        background: rgba(14, 33, 105, 0.04);
+        color: rgba(5, 37, 153, 1);
+      }
+      
+      .run_button a  {
+        font-family: Mukta;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(13, 20, 38, 1);
+        text-decoration: none;
+      }
+      .run_button:hover a {
+        color: rgba(5, 37, 153, 1);
+      }
+      .run_button:hover .chevron-right {
+        display: inline-block;
+      }
+
+      .dropdown_user { 
+        font-family: Alegreya;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: center;
+padding-top: 20px;
+
+      }
+      .dropdown_user svg { 
+        margin-right: 10px;
+      }

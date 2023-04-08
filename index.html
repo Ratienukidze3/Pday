@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/mainpage.css">
+    <style>
+     
+    </style>
+</head>
+<body>
+<!-- HEADER START -->
+    <header class="header-container">
+        <div class="header-logo_box">
+            <img src="/img/payday.svg" alt="" class="header-logo" >
+        </div>
+    <div class="right-nav_container">
+        <div class="right-nav_input_container">
+            <button id="search-icon" class="right-nav_search_btn">
+            <i data-feather="search" class="df df-search"></i></button>
+            <input type="text" placeholder="Search" class="right-nav_input" id="input">
+            <button id="close-search" class="right-nav_x_btn">
+            <i data-feather="x" class="df df-x"></i></button>
+            <div class="right-nav_input_dropdown" id="inputdrop">
+                <a href="#">
+                    <i data-feather="users" class="df df-users"></i>
+                    <span class="dropdown-element"> John Doe · Cashier</span>
+                </a>
+                <a href="#">
+                    <i data-feather="settings" class="df df-settings"></i>
+                    <span class="dropdown-element"> Invocie214.pdf · Reports</span>
+                </a>
+                <a href="#">
+                    <i data-feather="log-out" class="df df-logout"></i>
+                    <span class="dropdown-element"> Financial statements · Banking</span>
+                </a>
+            </div>
+            
+        </div>
+        
+            <button class="notif-btn">
+                <div class="bell-box">
+            <i data-feather="bell" class="df df-bell"></i></div>
+            <span class="notif-count">4</span></button>
+            <div class="right-nav_profile_container" id="profile-drop_btn">
+                <div class="nav-profile_pic_box">        
+                       <img src="/img/julia.png" alt="" class="nav-profile_pic"></div>     
+                <div class="profile-description_box">
+                    <p class="nav-profile_name">Julia Hartmann</p>
+                    <p class="nav-profile_position">Admin · Baumbach and Sons</p>
+                </div>
+
+
+
+                <div class="nav-dropdown_container">
+                <button class="nav-profile_drop_btn" id="dropdownIcon">
+                    <i data-feather="chevron-down" class="profile-drop_btn"></i>
+                </button>
+                
+            </div>
+            </div>
+        
+            <div class="profile-dropdown_box">
+                <div class="profile-dropdown_close" id="profDrop"></div>
+                <div class="profile_dropdown" id="profile-dropdown">
+                    <a href="#">
+                        <i data-feather="user" class="df df-user"></i>
+                        <span class="dropdown-element"> User Profile</span>
+                    </a>
+                    <a href="#">
+                        <i data-feather="settings" class="df df-settings"></i>
+                        <span class="dropdown-element"> Settings</span>
+                    </a>
+                    <a href="#">
+                        <i data-feather="log-out" class="df df-logout"></i>
+                        <span class="dropdown-element"> Log out</span>
+                    </a>
+                </div>
+            </div>
+    </div>
+
+
+</header>
+<!-- HEADER END -->
+
+<main class="mainpage">
+
+<!-- SIDEBAR START -->
+
+
+ <aside class="aside" id="aside">
+    <ul class="aside-nav">
+        <li class="aside-nav_item">
+            <a href="#"><i data-feather="home" class="df df-home"></i> <span class="aside-nav_submenu_name">Home</span> </a>
+        </li>
+        <li class="aside-nav_item">
+            <a href="#"><i data-feather="briefcase" class="df df-briefcase"></i> <span class="aside-nav_submenu_name">Banking</span> </a>
+        </li>
+        <li class="aside-nav_item">
+            <a href="#"><i data-feather="users" class="df df-users"></i> <span class="aside-nav_submenu_name">People</span> </a>
+        </li>
+        <li class="aside-nav_item aside-nav-margin" id="asideDropping">
+            <a href="#"><i data-feather="file-text" class="df df-filetext"></i> <span class="aside-nav_submenu_name">Payroll</span> <div  class="aside-chevron_down" id="asideDropdownBtn"><i data-feather="chevron-down"></i></div> </a>
+            <ul class="aside-nav-submenu" id="asideSubmenu">
+                <li class="aside-nav_submenu_item"><a href="payroll.html"><span class="aside-nav_submenu_name">Run payroll</span></a></li>
+                <li class="aside-nav_submenu_item"><a href="#"><span class="aside-nav_submenu_name">Settings</span></a></li>
+            </ul>
+        </li>
+        <li class="aside-nav_item">
+            <a href="#"><i data-feather="clock" class="df df-clock"></i> <span>Time</span> </a>
+        </li>
+        <li class="aside-nav_item">
+            <a href="#"><i data-feather="settings" class="df df-settings"></i> <span>Settings</span> </a>
+        </li>
+    </ul>
+ </aside>
+
+ <!-- SIDEBAR END -->
+
+ <!-- LANDING START -->
+ <section class="landing-page">
+    <div class="landing-container">
+        <h2>Other payroll options</h2>
+        <div class="other-payroll_options_container">
+            <div class="other-payroll_options_box">
+                <div class="payroll-icon_box">
+                <i data-feather="zap" class="df df-zap"></i></div>
+                <div class="payroll-options_description_box">
+                    <p>Off-cycle</p>
+                    <p>Run a payroll outside of your regular pay schedule.</p>
+                </div>
+                <button class="other-payroll_run_btn"><span>Run</span><i data-feather="chevron-right"></i> </button>
+            </div>
+            <div class="other-payroll_options_box">
+                <div class="payroll-icon_box">
+                <i data-feather="gift" class="df df-zap"></i></div>
+                <div class="payroll-options_description_box">
+                    <p>Bonus payroll</p>
+                    <p>Run a payroll outside of your regular pay schedule.</p>
+                </div>
+                <button class="other-payroll_run_btn"><span>Run</span><i data-feather="chevron-right"></i> </button>
+            </div>
+            <div class="other-payroll_options_box">
+                <div class="payroll-icon_box">
+                <i data-feather="slash" class="df df-zap"></i></div>
+                <div class="payroll-options_description_box">
+                    <p>Termination</p>
+                    <p>Run a payroll outside of your regular pay schedule.</p>
+                </div>
+                <button class="other-payroll_run_btn"><span>Run</span><i data-feather="chevron-right"></i> </button>
+            </div>
+        </div>
+
+        
+            <div class="active_payroll_container">
+                <div class="payroll_container_title">
+                    <p class="active_payrolls">Active payrolls</p>
+                    <a class="completed_payrolls" href="#">Completed payrolls (34)</a>
+                </div> 
+                <div class="payroll_container_description">
+                    <p class="payroll_container_description_title">PAY CYCLE</p>
+                    <p class="payroll_container_description_title">PAYDAY</p>
+                    <p class="payroll_container_description_title">DUE DATE</p>
+                </div>
+                
+            <div class="active_payroll_subcontainer">
+                <ul class="active_payroll_list">
+                    <ul class="pay_cycle_container">
+                        <li>May. 3 - 24</li>
+                        <li>All employees</li>
+                    </ul>
+                    <li class="pay_cycle_container_names">December 14</li>
+                    <li class="pay_cycle_container_names">August 26</li>
+                    <button class="run_late_payroll" ><a href="#" class=""><li class="">Run late Payroll</li></a></button>
+                </ul>
+
+
+                <div class="dots_container">
+                    <button class="dots_button" id="dots_button">
+                <i data-feather="more-vertical" class="dots" id="dots"></i>
+                    </button>
+                <div class="dots_drop" id="dots_drop">
+                    <a href="#" class="dropdown_user">
+                        <i data-feather="archive" class="userprofile"></i>Archieve</a>
+                        <a href="#" class="dropdown_user">
+                            <i data-feather="edit" class="userprofile"></i>Edit settings</a>
+                    <a href="#" class="dropdown_user">
+                        <i data-feather="trash" class="userprofile"></i>Delete</a>
+                </div>
+            </div>
+        </div>
+            
+        
+        <div class="active_payroll_subcontainer">
+            <ul class="active_payroll_list">
+                <ul class="pay_cycle_container">
+                    <li>June. 4 - 28</li>
+                    <li>All employees</li>
+                </ul>
+                <li class="pay_cycle_container_names">July 2</li>
+                <li class="pay_cycle_container_names">September 23</li>
+                <button class="run_payroll" ><a href="#" class=""><li class="">Run Payroll</li></a></button>
+            </ul>
+            <div class="dots_container">
+                <button class="dots1_button" id="dots1_button">
+            <i data-feather="more-vertical" class="dots1" id="dots1"></i>
+                </button>
+            <div class="dots1_drop" id="dots1_drop">
+                <a href="#" class="dropdown_user">
+                    <i data-feather="archive" class="userprofile"></i>Archieve</a>
+                    <a href="#" class="dropdown_user">
+                        <i data-feather="edit" class="userprofile"></i>Edit settings</a>
+                <a href="#" class="dropdown_user">
+                    <i data-feather="trash" class="userprofile"></i>Delete</a>
+            </div>
+        </div>
+            </div>
+        
+
+       
+        
+    <div class="active_payroll_subcontainer">
+        <ul class="active_payroll_list">
+            <ul class="pay_cycle_container">
+                <li>January. 2-30</li>
+                <li>All employees</li>
+            </ul>
+            <li class="pay_cycle_container_names">February 4</li>
+            <li class="pay_cycle_container_names">March 5</li>
+            <button class="review_payroll" ><a href="#" class=""><li class="">Review Payroll</li></a></button>
+        </ul>
+        <div class="dots_container">
+            <button class="dots2_button" id="dots2_button">
+        <i data-feather="more-vertical" class="dots2" id="dots2"></i>
+            </button>
+        <div class="dots2_drop" id="dots2_drop">
+            <a href="#" class="dropdown_user">
+                <i data-feather="archive" class="userprofile"></i>Archieve</a>
+                <a href="#" class="dropdown_user">
+                    <i data-feather="edit" class="userprofile"></i>Edit settings</a>
+            <a href="#" class="dropdown_user">
+                <i data-feather="trash" class="userprofile"></i>Delete</a>
+        </div>
+    </div>
+    </div>
+</div>
+                    
+                    
+                    
+               
+            
+
+</div>
+
+
+    </div>
+</div>
+</section>
+
+ <!-- LANDIND END -->
+
+
+</main>
+    <script src="/js/dots.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
