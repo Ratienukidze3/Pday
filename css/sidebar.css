@@ -18,7 +18,7 @@
 }
 
 .aside:hover {
-    width: 342px;
+    width: 272px;
 }
 
 .aside-nav {
@@ -43,7 +43,7 @@ text-align: left;
 margin-bottom: 34px;
 display: flex;
 flex-wrap: wrap;
-width: 150px;
+width: 176px;
 
 }
 .aside li a span {
@@ -56,7 +56,7 @@ width: 150px;
 .aside span {
     padding-left: 22px;
     color: rgba(11, 30, 99, 1);
-    padding-right: 70px;
+    padding-right: 50px;
     display: none;
 }
 .aside svg {

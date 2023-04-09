@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/sidebar.css">
-        <link rel="stylesheet" href="css/mainpage.css">
+        <!-- <link rel="stylesheet" href="css/mainpage.css"> -->
+        <link rel="stylesheet" href="css/payroll.css">
 </head>
 <body>
     <!-- HEADER START -->
@@ -122,8 +123,69 @@
  </aside>
  <!-- SIDEBAR END -->
 
+<!-- LANDING START -->
+<section class="hoursearnings">
+            
+    <div class="hours_container">
+        
+        <h2 class="hours_title">Hours & Earnings</h2>
+        <div id="container" class="line_container">
+            <div id="div1" class="line_div1"></div>
+            <div id="div2" class="line_div2"></div>
+            <div id="div3" class="line_div3"></div>
+        </div>
+        <div class="hours_title_box">
+            <div class="widthonclick" tabindex="0" onclick="setDivWidth(1)"><span>1</span>
+                <p>Hours and Earnings</p>
+            </div>
+            ·
+            <div class="widthonclick" tabindex="0" onclick="setDivWidth(2)"><span>2</span>
+                <p>Review</p>
+            </div>
+            ·
+            <div class="widthonclick" tabindex="0" onclick="setDivWidth(3)"><span>3</span>
+                <p>Confirmation</p>
+            </div>
 
- <div class="bottom-sticky_container">
+        </div>
+        <div class="settings_container">
+            <div class="settings_wrapper">
+                <i data-feather="rotate-ccw" class="df df-rotate"></i>
+                <ul>
+                    <li>Pay Period</li>
+                    <li>Feb 1-28</li>
+                </ul>
+            </div>
+            <div class="settings_wrapper">
+                <i data-feather="calendar" class="df df-calendar"></i>
+                <ul>
+                    <li>Due date</li>
+                    <li>March 3</li>
+                </ul>
+            </div>
+            <div class="settings_wrapper">
+                <i data-feather="dollar-sign" class="df df-history"></i>
+                <ul>
+                    <li>Pay day</li>
+                    <li>March 5</li>
+                </ul>
+            </div>
+            <div class="settings_wrapper">
+                <i data-feather="dollar-sign" class="df df-history"></i>
+                <ul>
+                    <li>TOTAL</li>
+                    <li>$85,246</li>
+                </ul>
+            </div>
+            <div class="run_settings_wrapper">
+                <button class="runsettingsbtn"><a href="#" class="runsettings"> <i data-feather="settings"
+                            class="df df-settings"></i><span class="runsettingstitle">Pay run settings</span>
+                    </a></button>
+            </div>
+        </div>
+<!-- LANDING END -->
+
+ <!-- <div class="bottom-sticky_container">
     <div class="sticky_box">
         <div class="sticky_left_box">
             <button class="back_button"><a href="index.html" class="goback-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> <span>Back</span></a></button> </div>
@@ -132,7 +194,7 @@
         </div>
         
     </div>
- </div>
+ </div> -->
 
 </main>
 
@@ -140,7 +202,7 @@
 
 
 
-<style>.sticky_box { 
+<!-- <style>.sticky_box { 
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -209,7 +271,8 @@
 main {display: flex;
     width: 70%;
 justify-content: space-between;} 
-</style>
+</style> -->
+<script src="js/payrolline.js"></script>
  <script src="js/dots.js"></script>
     <script src="js/index.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>

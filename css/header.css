@@ -383,7 +383,7 @@ color: rgba(13, 20, 38, 0.72);
 .profile-dropdown_show {
 /* display: flex; */
 top: 64px;  
-right: 32px;
+right: 18px;
     box-shadow: 0px 4px 32px 0px rgba(13, 20, 38, 0.16);
     transform: scale(1) rotate(0deg);
     justify-content: space-evenly;
