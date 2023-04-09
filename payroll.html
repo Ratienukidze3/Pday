@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/fonts.css">
-        <link rel="stylesheet" href="./css/header.css">
-        <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/mainpage.css">
 </head>
 <body>
     <!-- HEADER START -->
     <header class="header-container">
         <div class="header-logo_box">
-            <img src="./img/payday.svg" alt="" class="header-logo" >
+            <img src="img/payday.svg" alt="" class="header-logo" >
         </div>
-    <div class="right-nav_container">dada
+    <div class="right-nav_container">
         <div class="right-nav_input_container">
             <button id="search-icon" class="right-nav_search_btn">
             <i data-feather="search" class="df df-search"></i></button>
@@ -24,18 +25,21 @@
             <button id="close-search" class="right-nav_x_btn">
             <i data-feather="x" class="df df-x"></i></button>
             <div class="right-nav_input_dropdown" id="inputdrop">
+               <div class="input-drop_element_box">
                 <a href="#">
                     <i data-feather="users" class="df df-users"></i>
                     <span class="dropdown-element"> John Doe · Cashier</span>
-                </a>
+                </a></div>
+                <div class="input-drop_element_box">
                 <a href="#">
                     <i data-feather="settings" class="df df-settings"></i>
                     <span class="dropdown-element"> Invocie214.pdf · Reports</span>
-                </a>
+                </a></div>
+                <div class="input-drop_element_box">
                 <a href="#">
                     <i data-feather="log-out" class="df df-logout"></i>
                     <span class="dropdown-element"> Financial statements · Banking</span>
-                </a>
+                </a></div>
             </div>
             
         </div>
@@ -43,10 +47,10 @@
             <button class="notif-btn">
                 <div class="bell-box">
             <i data-feather="bell" class="df df-bell"></i></div>
-            <span class="notif-count">4</span></button>
+            <span class="notif-count" id="counter">4</span></button>
             <div class="right-nav_profile_container" id="profile-drop_btn">
                 <div class="nav-profile_pic_box">        
-                       <img src="/img/julia.png" alt="" class="nav-profile_pic"></div>     
+                       <img src="img/julia.png" alt="" class="nav-profile_pic"></div>     
                 <div class="profile-description_box">
                     <p class="nav-profile_name">Julia Hartmann</p>
                     <p class="nav-profile_position">Admin · Baumbach and Sons</p>
@@ -90,7 +94,7 @@
 <!-- SIDEBAR START -->
 
 
- <aside class="aside" id="aside">
+<aside class="aside" id="aside">
     <ul class="aside-nav">
         <li class="aside-nav_item">
             <a href="#"><i data-feather="home" class="df df-home"></i> <span class="aside-nav_submenu_name">Home</span> </a>
@@ -206,8 +210,8 @@ main {display: flex;
     width: 70%;
 justify-content: space-between;} 
 </style>
- <script src="/js/dots.js"></script>
-    <script src="/js/index.js"></script>
+ <script src="js/dots.js"></script>
+    <script src="js/index.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script>
         feather.replace()

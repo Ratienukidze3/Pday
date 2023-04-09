@@ -18,11 +18,11 @@
 }
 
 .aside:hover {
-    width: 272px;
+    width: 342px;
 }
 
 .aside-nav {
-    padding-left: 52px;
+    padding-left:44px;
     padding-top: 65px;
 }
 
@@ -43,6 +43,7 @@ text-align: left;
 margin-bottom: 34px;
 display: flex;
 flex-wrap: wrap;
+width: 150px;
 
 }
 .aside li a span {
@@ -86,6 +87,7 @@ flex-wrap: wrap;
     max-height: 100vh;
     padding-top: 24px;
     height: auto;
+    transition: 0.4s;
 }
 
 .aside-chevron_down {

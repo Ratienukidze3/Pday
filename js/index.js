@@ -7,13 +7,29 @@ const asideDropdownBtn =document.getElementById('asideDropdownBtn');
 const asideSubmenu = document.getElementById('asideSubmenu');
 const aside =document.getElementById('aside');
 const profileDropdown = document.getElementById ('profile-drop_btn');
-const dropBox = document.getElementById ('profile-dropdown')
+const dropBox = document.getElementById ('profile-dropdown');
+const inputDrop = document.getElementById ('inputdrop');
+const closeSearch = document.getElementById ('close-search')
+
+
+closeSearch.addEventListener('click', function() {
+    input.value = '';
+    closeSearch.style.display = 'none';
+  });
+  input.addEventListener('input', function() {
+    if (input.value.length > 0) {
+        closeSearch.style.display = 'block';
+    } else {
+        closeSearch.style.display = 'none';
+    }
+  });
+  
 
 
 
 function EditInput () {
     inputBox.classList.toggle("opened-search");
-    
+    inputDrop.classList.toggle ('right-nav_input_open');
 }
 
 input.addEventListener("focus", EditInput);
@@ -56,3 +72,15 @@ aside.addEventListener('mouseleave', () => {
 
 
 
+
+function generateRandomNumber() {
+    return Math.floor(Math.random() * 100) + 1; 
+  }
+  
+  function updateCounter() {
+    var randomNumber = generateRandomNumber(); 
+    var counter = document.getElementById("counter");
+    counter.innerHTML = randomNumber;
+  }
+  
+  setInterval(updateCounter, 5000);
