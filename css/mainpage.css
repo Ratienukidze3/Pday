@@ -6,12 +6,13 @@
 
 
 .landing-page { 
-    flex-direction: column;
-    width: 1624px;
-    margin-right: 74px;
-    margin-left: 54px;
-    display: flex;
-    align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 74px;
+  margin-left: 54px;
+  display: flex;
+  align-items: center;
+  
 }
 
 .landing-container h2 { 
