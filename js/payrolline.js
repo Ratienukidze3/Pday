@@ -15,5 +15,6 @@ function setDivWidth(num) {
       div1.style.flexBasis = "100%";
       div2.style.flexBasis = "0%";
       div3.style.flexBasis = "0%";
+      div3.style.color = "red";
     }
   }
